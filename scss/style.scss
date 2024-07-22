@@ -18,22 +18,98 @@
 {
     width: 100%;
     height: 100%;
-    background-color: green;
+    background-color: violet;
+}
+
+footer
+{
+    width: 68%;
+    height: 372px;
+    margin: auto;
+    padding-top: 47px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #ffffff;
+    background-color: green; // #323544;
+}
+
+.footer-container
+{
+    display: flex;
+}
+
+#footer-logo
+{
+    display: flex;
+    width: 400px;
+    height: 325px;
+    background-color: chocolate;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.social-links
+{
+    width: 320px;
+    height: 325px;
+    background-color: aqua;
+}
+
+.follow-us
+{
+    margin-top: 24px;
+    margin-bottom: 26px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: blueviolet;
+}
+
+#company-information-row
+{
+    display: flex;
+    width: 800px;
+    height: 325px;
+    background-color: fuchsia;
+}
+
+.information-column
+{
+    width: 200px;
+    height: 285px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 40px;
+    background-color: teal;
+}
+
+.information-column h4
+{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.company-information-links
+{
+    font-size: 13px;
+    line-height: .6;
 }
 
 .bottom-footer
 {
-    width: 100%;
+    width: 68%;
     height: 45px;
+    margin: auto;
     padding-top: 10px;
     background-color: blue; /* #212330;*/
 }
 
 .bottom-footer-container
 {
-    width: 50%;
-    height: 35px;
-    margin: auto;
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     background-color: yellowgreen;
