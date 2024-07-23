@@ -40,10 +40,19 @@ footer a {
   color: #ffffff;
 }
 
+footer a:hover {
+  text-decoration: underline;
+}
+
 .social-links {
   width: 320px;
   height: 325px;
   background-color: aqua;
+}
+
+.footer-logo-image {
+  width: 100%;
+  height: 65px;
 }
 
 .follow-us {
@@ -52,6 +61,49 @@ footer a {
   text-transform: uppercase;
   color: #ffffff;
   background-color: blueviolet;
+}
+
+.social-link-buttons {
+  width: 100%;
+  height: 56px;
+  background-color: goldenrod;
+}
+
+.link-button {
+  display: inline-flex;
+  width: 70px;
+  height: 56px;
+  padding-top: 12px;
+  padding-bottom: 16px;
+  padding-left: 22px;
+  padding-right: 22px;
+  background-color: blue;
+}
+
+.link-icon {
+  width: 26px;
+  height: 26px;
+}
+
+.link-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.social-link-buttons a:hover#facebook {
+  background-color: #3b5998;
+}
+
+.social-link-buttons a:hover#linkedin {
+  background-color: #0077b5;
+}
+
+.social-link-buttons a:hover#twitter {
+  background-color: #00aced;
+}
+
+.social-link-buttons a:hover#instagram {
+  background-color: #d93175;
 }
 
 #company-information-row {
@@ -86,6 +138,15 @@ footer a {
   margin: auto;
   padding-top: 10px;
   background-color: blue; /* #212330;*/
+}
+
+.bottom-footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.bottom-footer a:hover {
+  text-decoration: underline;
 }
 
 .bottom-footer-container {
