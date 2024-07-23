@@ -1,0 +1,37 @@
+
+// bottom footer
+.bottom-footer
+{
+    width: 68%;
+    height: 45px;
+    margin: auto;
+    padding-top: 10px;
+    background-color: blue; /* #212330;*/
+}
+
+.bottom-footer a
+{
+    text-decoration: none;
+    color: $white;
+}
+
+.bottom-footer a:hover
+{
+    text-decoration: underline;
+}
+
+.bottom-footer-container
+{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: yellowgreen;
+}
+
+.copyright-notice
+{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    background-color: red;
+}

@@ -1,0 +1,140 @@
+
+// footer
+footer
+{
+    width: 68%;
+    height: 372px;
+    margin: auto;
+    padding-top: 47px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #ffffff;
+    background-color: green; // #323544;
+}
+
+.footer-container
+{
+    display: flex;
+}
+
+#footer-logo
+{
+    display: flex;
+    width: 400px;
+    height: 325px;
+    background-color: chocolate;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: $white;
+}
+
+footer a:hover
+{
+    text-decoration: underline;
+}
+
+.social-links
+{
+    width: 320px;
+    height: 325px;
+    background-color: aqua;
+}
+
+.footer-logo-image
+{
+    width: 100%;
+    height: 65px;
+}
+
+.follow-us
+{
+    margin-top: 24px;
+    margin-bottom: 26px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: blueviolet;
+}
+
+.social-link-buttons
+{
+    width: 100%;
+    height: 56px;
+    background-color: goldenrod;
+}
+
+.link-button
+{
+    display: inline-flex;
+    width: 70px;
+    height: 56px;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    padding-left: 22px;
+    padding-right: 22px;
+    background-color: blue;
+}
+
+.link-icon
+{
+    width: 26px;
+    height: 26px;
+}
+
+.link-icon img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.social-link-buttons a:hover#facebook 
+{
+    background-color: $chambray;
+}
+
+.social-link-buttons a:hover#linkedin 
+{
+    background-color: $deep-cerulean;
+}
+
+.social-link-buttons a:hover#twitter
+{
+    background-color: $cerulean;
+}
+
+.social-link-buttons a:hover#instagram 
+{
+    background-color: $cerise;
+}
+
+#company-information-row
+{
+    display: flex;
+    width: 800px;
+    height: 325px;
+    background-color: fuchsia;
+}
+
+.information-column
+{
+    width: 200px;
+    height: 285px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 40px;
+    background-color: teal;
+}
+
+.information-column h4
+{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.company-information-links
+{
+    font-size: 13px;
+    line-height: .6;
+}

@@ -1,0 +1,52 @@
+
+// client carousel
+.client-carousel
+{
+    width: 100%;
+    height: 170px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: cornflowerblue;
+}
+
+.carousel-container
+{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: coral;
+}
+
+.client-items
+{
+    width: 240px;
+    height: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: solid $white 1px;
+    background-color: cadetblue;
+}
+
+.client-image-container
+{
+    border: solid $white 1px;
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.client-image-container #gdst, #ashcroft, #searles, #busseys, #crane
+{
+    width: 100%;
+}
+
+.client-image-container #one-traveller
+{
+    margin-left: calc(50% - (43px/2));
+}
+
+.client-image-container img
+{
+    //width: 100%;
+    height: 100%;
+}
