@@ -1,0 +1,36 @@
+
+// articles
+.article-header-bar-container
+{
+    width: 100%;
+    height: 117px;
+    background-color: $white;
+    border: $black solid 1px;
+}
+
+.article-content-container
+{
+    width: 100%;
+    height: 773px;
+    background-color: $white;
+    border: $black solid 1px;
+}
+
+.article-header-bar
+{
+    display: flex;
+    width: 68%;
+    height: 100%;
+    margin: auto;
+    background-color: mediumvioletred;
+    border: red solid 1px;
+}
+
+.article-content
+{
+    width: 68%;
+    height: 100%;
+    margin: auto;
+    background-color: mediumslateblue; // #323544;
+    border: red solid 1px;
+}

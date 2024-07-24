@@ -1,9 +1,9 @@
 
-// check if google fonts has been declared
-@if variable-exists(font-url--google)
+// check if the google font variable has been declared
+@if variable-exists(google-font--url)
 {
-    // if iit does, import the font
-    @import url($font-url--google);
+    // if it has, import the font
+    @import url($google-font--url);
 }
 
 // convert px's to em's

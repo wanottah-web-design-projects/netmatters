@@ -1,28 +1,38 @@
 
 // footer
-footer
+.footer-container
 {
-    width: 68%;
+    width: 100%;
     height: 372px;
-    margin: auto;
     padding-top: 47px;
-    padding-left: 15px;
-    padding-right: 15px;
-    color: #ffffff;
+    background-color: lightcoral;
+}
+
+.footer-content-container
+{
+    display: flex;
+    width: 68%;
+    height: 325px;
+    margin: auto;
     background-color: green; // #323544;
 }
 
-.footer-container
+.social-links
 {
-    display: flex;
+    width: 320px;
+    height: 325px;
+    background-color: aqua;
+    border: $white solid 1px;
 }
 
 #footer-logo
 {
     display: flex;
     width: 400px;
-    height: 325px;
+    height: 100%;
+    margin-left: 15px;
     background-color: chocolate;
+    border: $white solid 1px;
 }
 
 footer a
@@ -36,26 +46,33 @@ footer a:hover
     text-decoration: underline;
 }
 
-.social-links
-{
-    width: 320px;
-    height: 325px;
-    background-color: aqua;
-}
-
 .footer-logo-image
 {
     width: 100%;
     height: 65px;
+    margin-bottom: 24px;
+    border: $white solid 1px;
 }
 
 .follow-us
 {
-    margin-top: 24px;
+    display: flex;
+    width: 100%;
+    height: 17px;
     margin-bottom: 26px;
-    text-transform: uppercase;
-    color: #ffffff;
     background-color: blueviolet;
+    border: $white solid 1px;
+    align-items: center;
+}
+
+.follow-us-text
+{
+    width: 100%;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: $white;
+    background-color: red;
 }
 
 .social-link-buttons
@@ -74,7 +91,7 @@ footer a:hover
     padding-bottom: 16px;
     padding-left: 22px;
     padding-right: 22px;
-    background-color: blue;
+    background-color: #212330;
 }
 
 .link-icon
@@ -113,8 +130,10 @@ footer a:hover
 {
     display: flex;
     width: 800px;
-    height: 325px;
+    height: 100%;
+    margin-right: 15px;
     background-color: fuchsia;
+    border: $white solid 1px;
 }
 
 .information-column
@@ -131,6 +150,7 @@ footer a:hover
 {
     font-size: 14px;
     text-transform: uppercase;
+    color: $white;
 }
 
 .company-information-links

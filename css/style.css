@@ -2,10 +2,10 @@
   box-sizing: border-box;
 }
 
-.body {
+body {
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  font-family: "Poppins", sans-serif;
 }
 
 .body-container {
@@ -14,15 +14,128 @@
   background-color: violet;
 }
 
-.partner-carousel {
+.header-container {
+  width: 100%;
+  height: 110px;
+  background-color: aqua;
+}
+
+.header-content-container {
+  width: 68%;
+  height: 100%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: green;
+}
+
+.header-logo-container {
+  width: 400px;
+  height: 70px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: #ffffff solid 1px;
+}
+
+.header-logo-container img {
+  width: 100%;
+}
+
+.navigation-container {
+  width: 100%;
+  height: 99px;
+  background-color: #666666;
+}
+
+.navigation-menu-container {
+  width: 68%;
+  height: 100%;
+  margin: auto;
+  background-color: #323544;
+}
+
+.services-carousel {
+  width: 100%;
+  height: 550px;
+  background-color: aquamarine;
+}
+
+.services-carousel-content-container {
+  position: absolute;
+  width: 100%;
+  height: 417px;
+  margin-top: 60px;
+  background-color: indianred;
+}
+
+.services-content-container {
+  height: 297px;
+  margin-top: 60px;
+  margin-left: 298px;
+  margin-right: 298px;
+  background-color: grey;
+  border: #ffffff solid 1px;
+}
+
+.services-content {
+  height: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #ffffff;
+  background-color: black;
+  border: #ffffff solid 1px;
+}
+
+.services-content-heading {
+  width: 100%;
+  background-color: saddlebrown;
+}
+
+.services-content-heading h1 {
+  font-size: 64px;
+  line-height: 80px;
+  margin: 0;
+}
+
+.services-content-paragraph {
+  width: 100%;
+  background-color: darkslateblue;
+}
+
+.services-content-paragraph p {
+  font-size: 26px;
+  line-height: 40px;
+  margin: 0;
+}
+
+.services-why-us {
+  width: 250px;
+  height: 62px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 31px;
+  margin-bottom: 18px;
+  border-radius: 3px;
+  background-color: #926fb1;
+}
+
+.services-carousel-controls {
+  width: 100%;
+  height: 22px;
+  margin-bottom: 44px;
+  background-color: olivedrab;
+}
+
+.partners-carousel {
   width: 100%;
   height: 170px;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: cornflowerblue;
+  background-color: greenyellow;
 }
 
-.carousel-container {
+.partners-carousel-container {
   display: flex;
   width: 100%;
   height: 70px;
@@ -57,7 +170,65 @@
   height: 100%;
 }
 
-.client-carousel {
+.homepage-container {
+  width: 100%;
+  height: 605px;
+  background-color: #333645;
+}
+
+.homepage-content-container {
+  width: 68%;
+  height: 100%;
+  margin: auto;
+  background-color: mediumslateblue;
+  border: #ffffff solid 1px;
+}
+
+.our-services-container {
+  width: 100%;
+  height: 878px;
+  background-color: darkorchid;
+}
+
+.our-services-content-container {
+  width: 68%;
+  height: 100%;
+  margin: auto;
+  background-color: gray;
+}
+
+.article-header-bar-container {
+  width: 100%;
+  height: 117px;
+  background-color: #ffffff;
+  border: #000000 solid 1px;
+}
+
+.article-content-container {
+  width: 100%;
+  height: 773px;
+  background-color: #ffffff;
+  border: #000000 solid 1px;
+}
+
+.article-header-bar {
+  display: flex;
+  width: 68%;
+  height: 100%;
+  margin: auto;
+  background-color: mediumvioletred;
+  border: red solid 1px;
+}
+
+.article-content {
+  width: 68%;
+  height: 100%;
+  margin: auto;
+  background-color: mediumslateblue;
+  border: red solid 1px;
+}
+
+.clients-carousel {
   width: 100%;
   height: 170px;
   padding-top: 50px;
@@ -65,7 +236,7 @@
   background-color: cornflowerblue;
 }
 
-.carousel-container {
+.clients-carousel-container {
   display: flex;
   width: 100%;
   height: 70px;
@@ -100,26 +271,35 @@
   height: 100%;
 }
 
-footer {
-  width: 68%;
+.footer-container {
+  width: 100%;
   height: 372px;
-  margin: auto;
   padding-top: 47px;
-  padding-left: 15px;
-  padding-right: 15px;
-  color: #ffffff;
+  background-color: lightcoral;
+}
+
+.footer-content-container {
+  display: flex;
+  width: 68%;
+  height: 325px;
+  margin: auto;
   background-color: green;
 }
 
-.footer-container {
-  display: flex;
+.social-links {
+  width: 320px;
+  height: 325px;
+  background-color: aqua;
+  border: #ffffff solid 1px;
 }
 
 #footer-logo {
   display: flex;
   width: 400px;
-  height: 325px;
+  height: 100%;
+  margin-left: 15px;
   background-color: chocolate;
+  border: #ffffff solid 1px;
 }
 
 footer a {
@@ -131,23 +311,30 @@ footer a:hover {
   text-decoration: underline;
 }
 
-.social-links {
-  width: 320px;
-  height: 325px;
-  background-color: aqua;
-}
-
 .footer-logo-image {
   width: 100%;
   height: 65px;
+  margin-bottom: 24px;
+  border: #ffffff solid 1px;
 }
 
 .follow-us {
-  margin-top: 24px;
+  display: flex;
+  width: 100%;
+  height: 17px;
   margin-bottom: 26px;
+  background-color: blueviolet;
+  border: #ffffff solid 1px;
+  align-items: center;
+}
+
+.follow-us-text {
+  width: 100%;
+  font-size: 16px;
+  line-height: 22px;
   text-transform: uppercase;
   color: #ffffff;
-  background-color: blueviolet;
+  background-color: red;
 }
 
 .social-link-buttons {
@@ -164,7 +351,7 @@ footer a:hover {
   padding-bottom: 16px;
   padding-left: 22px;
   padding-right: 22px;
-  background-color: blue;
+  background-color: #212330;
 }
 
 .link-icon {
@@ -196,8 +383,10 @@ footer a:hover {
 #company-information-row {
   display: flex;
   width: 800px;
-  height: 325px;
+  height: 100%;
+  margin-right: 15px;
   background-color: fuchsia;
+  border: #ffffff solid 1px;
 }
 
 .information-column {
@@ -212,6 +401,7 @@ footer a:hover {
 .information-column h4 {
   font-size: 14px;
   text-transform: uppercase;
+  color: #ffffff;
 }
 
 .company-information-links {
@@ -219,35 +409,45 @@ footer a:hover {
   line-height: 0.6;
 }
 
-.bottom-footer {
-  width: 68%;
-  height: 45px;
-  margin: auto;
-  padding-top: 10px;
-  background-color: blue; /* #212330;*/
-}
-
-.bottom-footer a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.bottom-footer a:hover {
-  text-decoration: underline;
-}
-
 .bottom-footer-container {
   width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
+  height: 45px;
+  background-color: royalblue;
+}
+
+.bottom-footer-content-container {
+  width: 68%;
+  height: 100%;
+  margin: auto;
+  padding-top: 10px;
+  background-color: #212330;
+}
+
+.bottom-footer-content {
+  width: 100%;
+  height: 35px;
   background-color: yellowgreen;
 }
 
 .copyright-notice {
+  height: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
   padding-top: 5px;
   padding-bottom: 10px;
+  font-size: 13px;
+  line-height: 18px;
   color: #ffffff;
   background-color: red;
+}
+
+.bottom-footer-content a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.bottom-footer-content a:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */

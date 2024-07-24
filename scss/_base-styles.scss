@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 
-.body
+body
 {
-    font-size: $base__font-size;
-    line-height: ($base__line-height / $base__font-size);        // set our line height in em's
     font-family: $font-family--primary;
+    font-size: $base__font-size;
+    line-height: calc($base__line-height / $base__font-size);        // set our line height in em's 
 }
 
 .body-container
