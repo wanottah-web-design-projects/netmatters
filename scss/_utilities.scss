@@ -2,5 +2,16 @@
 // check if google fonts has been declared
 @if variable-exists(font-url--google)
 {
+    // if iit does, import the font
     @import url($font-url--google);
+}
+
+// convert px's to em's
+// $ems  : the em size to return
+// $pxs  : the pixel size to convert (initially set to the base font size)
+@function convert-px-to-em($ems, $pxs: $base__font-size)
+{
+    // to get the return value as em's
+    // multiply the output value by 1em
+    @return ($ems / $pxs) * 1em;
 }

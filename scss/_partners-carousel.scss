@@ -1,0 +1,51 @@
+
+// partners carousel
+.partner-carousel
+{
+    width: 100%;
+    height: 170px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: cornflowerblue;
+}
+
+.carousel-container
+{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: coral;
+}
+
+.partner-items
+{
+    width: 240px;
+    height: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: solid $white 1px;
+    background-color: cadetblue;
+}
+
+.partner-image-container
+{
+    border: solid $white 1px;
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.partner-image-container #cyber-essentials, #google-partner, #norfolk-prohelp, #winner, #carbon-charter
+{
+    width: 100%;
+}
+
+.partner-image-container #living-wage
+{
+    margin-left: calc(50% - (88px/2));
+}
+
+.partner-image-container img
+{
+    height: 100%;
+}
