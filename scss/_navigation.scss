@@ -9,9 +9,10 @@
 
 .navigation-menu-container
 {
-    width: 66%;
+    width: 65%;
     height: 100%;
     margin: auto;
+    background-color: green
 }
 
 .menu-item-container
@@ -20,17 +21,18 @@
     height: 100%;
     margin-left: 15px;
     margin-right: 15px;
+    background-color: orangered;
 }
 
 .menu-item
 {
     display: flex;
-    width: 167px;
+    width: 166px;
     height: 100%;
     text-transform: uppercase;
     text-align: center;
     //background-color: red;
-    //border: $white solid 1px;
+    border: $white solid 1px;
 }
 
 .menu-item-content
