@@ -14,19 +14,28 @@ body {
   background-color: violet;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
 .header-container {
   width: 100%;
   height: 110px;
-  background-color: aqua;
+  background-color: #ffffff;
 }
 
 .header-content-container {
-  width: 68%;
+  display: flex;
+  width: 66%;
   height: 100%;
   margin: auto;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: green;
+  background-color: #ffffff;
 }
 
 .header-logo-container {
@@ -34,24 +43,141 @@ body {
   height: 70px;
   padding-left: 15px;
   padding-right: 15px;
-  border: #ffffff solid 1px;
 }
 
 .header-logo-container img {
   width: 100%;
 }
 
+.header-controls-container {
+  width: 800px;
+  height: 100%;
+}
+
+.header-controls {
+  display: flex;
+  width: 708px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  align-items: center;
+}
+
+.support-button {
+  display: flex;
+  width: 141px;
+  height: 56px;
+  margin-right: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  align-items: center;
+  background-color: #4183d7;
+  border-radius: 3px;
+}
+
+.header-button-icon {
+  display: flex;
+  width: 23px;
+  height: 45px;
+  margin-left: 16px;
+  margin-right: 5px;
+  align-items: center;
+}
+
+.header-button-icon img {
+  width: 100%;
+}
+
+.contact-button {
+  display: flex;
+  width: 141px;
+  height: 56px;
+  margin-right: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  align-items: center;
+  background-color: #999aa2;
+  border-radius: 3px;
+}
+
+.search-bar {
+  display: flex;
+  width: 240px;
+  height: 56px;
+}
+
+.search-bar-input {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.search-button {
+  display: flex;
+  width: 63px;
+  height: 56px;
+  margin-right: 20px;
+  align-items: center;
+  background-color: #999aa2;
+  border-radius: 3px;
+}
+
+.search-button-icon {
+  width: 23px;
+  height: 23px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-button-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.hamburger-button {
+  display: flex;
+  width: 63px;
+  height: 56px;
+  align-items: center;
+  background-color: #333645;
+  border-radius: 3px;
+}
+
+.hamburger-button-icon {
+  width: 33px;
+  height: 33px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hamburger-button-icon img {
+  width: 100%;
+  height: 100%;
+}
+
 .navigation-container {
   width: 100%;
   height: 99px;
-  background-color: #666666;
+  background-color: #333645;
 }
 
 .navigation-menu-container {
-  width: 68%;
+  display: flex;
+  width: 66%;
   height: 100%;
   margin: auto;
-  background-color: #323544;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: red;
+}
+
+.menu-item {
+  width: 167px;
+  height: 100%;
+  background-color: aqua;
 }
 
 .services-carousel {
@@ -177,7 +303,7 @@ body {
 }
 
 .homepage-content-container {
-  width: 68%;
+  width: 66%;
   height: 100%;
   margin: auto;
   background-color: mediumslateblue;
@@ -191,7 +317,7 @@ body {
 }
 
 .our-services-content-container {
-  width: 68%;
+  width: 66%;
   height: 100%;
   margin: auto;
   background-color: gray;
@@ -213,7 +339,7 @@ body {
 
 .article-header-bar {
   display: flex;
-  width: 68%;
+  width: 66%;
   height: 100%;
   margin: auto;
   background-color: mediumvioletred;
@@ -221,7 +347,7 @@ body {
 }
 
 .article-content {
-  width: 68%;
+  width: 66%;
   height: 100%;
   margin: auto;
   background-color: mediumslateblue;
@@ -280,7 +406,7 @@ body {
 
 .footer-content-container {
   display: flex;
-  width: 68%;
+  width: 66%;
   height: 325px;
   margin: auto;
   background-color: green;
@@ -290,7 +416,6 @@ body {
   width: 320px;
   height: 325px;
   background-color: aqua;
-  border: #ffffff solid 1px;
 }
 
 #footer-logo {
@@ -299,11 +424,9 @@ body {
   height: 100%;
   margin-left: 15px;
   background-color: chocolate;
-  border: #ffffff solid 1px;
 }
 
 footer a {
-  text-decoration: none;
   color: #ffffff;
 }
 
@@ -315,7 +438,6 @@ footer a:hover {
   width: 100%;
   height: 65px;
   margin-bottom: 24px;
-  border: #ffffff solid 1px;
 }
 
 .follow-us {
@@ -324,7 +446,6 @@ footer a:hover {
   height: 17px;
   margin-bottom: 26px;
   background-color: blueviolet;
-  border: #ffffff solid 1px;
   align-items: center;
 }
 
@@ -386,7 +507,6 @@ footer a:hover {
   height: 100%;
   margin-right: 15px;
   background-color: fuchsia;
-  border: #ffffff solid 1px;
 }
 
 .information-column {
@@ -416,7 +536,7 @@ footer a:hover {
 }
 
 .bottom-footer-content-container {
-  width: 68%;
+  width: 66%;
   height: 100%;
   margin: auto;
   padding-top: 10px;
@@ -442,7 +562,6 @@ footer a:hover {
 }
 
 .bottom-footer-content a {
-  text-decoration: none;
   color: #ffffff;
 }
 

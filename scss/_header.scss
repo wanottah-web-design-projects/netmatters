@@ -4,17 +4,18 @@
 {
     width: 100%;
     height: 110px;
-    background-color: aqua;
+    background-color: $white
 }
 
 .header-content-container
 {
-    width: 68%;
+    display: flex;
+    width: 66%;
     height: 100%;
     margin: auto;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: green; // #323544;
+    background-color: $white;
 
 }
 
@@ -24,10 +25,133 @@
     height: 70px;
     padding-left: 15px;
     padding-right: 15px;
-    border: $white solid 1px;
 }
 
 .header-logo-container img
 {
     width: 100%;
 }
+
+.header-controls-container
+{
+    width: 800px;
+    height: 100%;
+}
+
+.header-controls
+{
+    display: flex;
+    width: 708px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    align-items: center;
+}
+
+.support-button
+{
+    display: flex;
+    width: 141px;
+    height: 56px;
+    margin-right: 20px;
+    color: $white;
+    text-transform: uppercase;
+    align-items: center;
+    background-color: #4183d7;
+    border-radius: 3px;
+}
+
+.header-button-icon
+{
+    display: flex;
+    width: 23px;
+    height: 45px;
+    margin-left: 16px;
+    margin-right: 5px;
+    align-items: center;
+}
+
+.header-button-icon img
+{
+    width: 100%;
+}
+
+.contact-button
+{
+    display: flex;
+    width: 141px;
+    height: 56px;
+    margin-right: 20px;
+    color: $white;
+    text-transform: uppercase;
+    align-items: center;
+    background-color: #999aa2;
+    border-radius: 3px;
+}
+
+.search-bar
+{
+    display: flex;
+    width: 240px;
+    height: 56px;
+}
+
+.search-bar-input
+{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.search-button
+{
+    display: flex;
+    width: 63px;
+    height: 56px;
+    margin-right: 20px;
+    align-items: center;
+    background-color: #999aa2;
+    border-radius: 3px;
+}
+
+.search-button-icon
+{
+    width: 23px;
+    height: 23px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-button-icon img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.hamburger-button
+{
+    display: flex;
+    width: 63px;
+    height: 56px;
+    align-items: center;
+    background-color: #333645;
+    border-radius: 3px;
+}
+
+.hamburger-button-icon
+{
+    width: 33px;
+    height: 33px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hamburger-button-icon img
+{
+    width: 100%;
+    height: 100%;
+}
+

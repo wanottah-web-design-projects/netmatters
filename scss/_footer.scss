@@ -11,7 +11,7 @@
 .footer-content-container
 {
     display: flex;
-    width: 68%;
+    width: 66%;
     height: 325px;
     margin: auto;
     background-color: green; // #323544;
@@ -22,7 +22,6 @@
     width: 320px;
     height: 325px;
     background-color: aqua;
-    border: $white solid 1px;
 }
 
 #footer-logo
@@ -32,12 +31,10 @@
     height: 100%;
     margin-left: 15px;
     background-color: chocolate;
-    border: $white solid 1px;
 }
 
 footer a
 {
-    text-decoration: none;
     color: $white;
 }
 
@@ -51,7 +48,6 @@ footer a:hover
     width: 100%;
     height: 65px;
     margin-bottom: 24px;
-    border: $white solid 1px;
 }
 
 .follow-us
@@ -61,7 +57,6 @@ footer a:hover
     height: 17px;
     margin-bottom: 26px;
     background-color: blueviolet;
-    border: $white solid 1px;
     align-items: center;
 }
 
@@ -133,7 +128,6 @@ footer a:hover
     height: 100%;
     margin-right: 15px;
     background-color: fuchsia;
-    border: $white solid 1px;
 }
 
 .information-column
