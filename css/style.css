@@ -52,6 +52,7 @@ a:hover {
 .header-controls-container {
   width: 800px;
   height: 100%;
+  margin-left: 68px;
 }
 
 .header-controls {
@@ -165,19 +166,77 @@ a:hover {
 }
 
 .navigation-menu-container {
-  display: flex;
   width: 66%;
   height: 100%;
   margin: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  background-color: red;
+}
+
+.menu-item-container {
+  display: flex;
+  height: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .menu-item {
+  display: flex;
   width: 167px;
   height: 100%;
-  background-color: aqua;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.menu-item-content {
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-item-icon {
+  width: 100%;
+  height: 33px;
+  margin-top: 10px;
+}
+
+.menu-item small {
+  font-size: 10px;
+  line-height: 10px;
+  color: #ffffff;
+}
+
+.menu-item p {
+  font-size: 18px;
+  line-height: 18px;
+  margin: 0;
+  color: #ffffff;
+}
+
+a:hover#bespoke-software {
+  background-color: #67809f;
+}
+
+a:hover#it-support {
+  background-color: #4183d7;
+}
+
+a:hover#digital-marketing {
+  background-color: #2ecc71;
+}
+
+a:hover#telecoms-services {
+  background-color: #d64541;
+}
+
+a:hover#web-design {
+  background-color: #926fb1;
+}
+
+a:hover#cyber-security {
+  background-color: #f62459;
+}
+
+a:hover#developer-course {
+  background-color: #ce4125;
 }
 
 .services-carousel {
