@@ -585,14 +585,13 @@ a:hover#developer-course {
   height: 170px;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: cornflowerblue;
+  background-color: #ffffff;
 }
 
 .clients-carousel-container {
   display: flex;
   width: 100%;
   height: 70px;
-  background-color: coral;
 }
 
 .client-items {
@@ -600,8 +599,6 @@ a:hover#developer-course {
   height: 100%;
   margin-left: 25px;
   margin-right: 25px;
-  border: solid #ffffff 1px;
-  background-color: cadetblue;
 }
 
 .client-image-container {
@@ -627,7 +624,7 @@ a:hover#developer-course {
   width: 100%;
   height: 372px;
   padding-top: 47px;
-  background-color: lightcoral;
+  background-color: #323544;
 }
 
 .footer-content-container {
@@ -635,13 +632,11 @@ a:hover#developer-course {
   width: 65%;
   height: 325px;
   margin: auto;
-  background-color: green;
 }
 
 .social-links {
   width: 320px;
   height: 325px;
-  background-color: aqua;
 }
 
 #footer-logo {
@@ -649,7 +644,6 @@ a:hover#developer-course {
   width: 400px;
   height: 100%;
   margin-left: 15px;
-  background-color: chocolate;
 }
 
 footer a {
@@ -671,7 +665,6 @@ footer a:hover {
   width: 100%;
   height: 17px;
   margin-bottom: 26px;
-  background-color: blueviolet;
   align-items: center;
 }
 
@@ -681,13 +674,11 @@ footer a:hover {
   line-height: 22px;
   text-transform: uppercase;
   color: #ffffff;
-  background-color: red;
 }
 
 .social-link-buttons {
   width: 100%;
   height: 56px;
-  background-color: goldenrod;
 }
 
 .link-button {
@@ -732,7 +723,6 @@ footer a:hover {
   width: 800px;
   height: 100%;
   margin-right: 15px;
-  background-color: fuchsia;
 }
 
 .information-column {
@@ -741,7 +731,6 @@ footer a:hover {
   padding-left: 15px;
   padding-right: 15px;
   margin-bottom: 40px;
-  background-color: teal;
 }
 
 .information-column h4 {
@@ -758,7 +747,7 @@ footer a:hover {
 .bottom-footer-container {
   width: 100%;
   height: 45px;
-  background-color: royalblue;
+  background-color: #212330;
 }
 
 .bottom-footer-content-container {
@@ -766,13 +755,11 @@ footer a:hover {
   height: 100%;
   margin: auto;
   padding-top: 10px;
-  background-color: #212330;
 }
 
 .bottom-footer-content {
   width: 100%;
   height: 35px;
-  background-color: yellowgreen;
 }
 
 .copyright-notice {
@@ -784,7 +771,6 @@ footer a:hover {
   font-size: 13px;
   line-height: 18px;
   color: #ffffff;
-  background-color: red;
 }
 
 .bottom-footer-content a {
