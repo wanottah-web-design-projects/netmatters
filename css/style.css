@@ -25,7 +25,7 @@ a:hover {
 .header-container {
   width: 100%;
   height: 110px;
-  background-color: salmon;
+  background-color: #ffffff;
 }
 
 .header-content-container {
@@ -35,7 +35,6 @@ a:hover {
   margin: auto;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: aqua;
 }
 
 .header-logo-container {
@@ -169,7 +168,6 @@ a:hover {
   width: 65%;
   height: 100%;
   margin: auto;
-  background-color: green;
 }
 
 .menu-item-container {
@@ -177,16 +175,14 @@ a:hover {
   height: 100%;
   margin-left: 15px;
   margin-right: 15px;
-  background-color: orangered;
 }
 
 .menu-item {
   display: flex;
-  width: 166px;
+  width: 167.8px;
   height: 100%;
   text-transform: uppercase;
   text-align: center;
-  border: #ffffff solid 1px;
 }
 
 .menu-item-content {
@@ -337,14 +333,13 @@ a:hover#developer-course {
   height: 170px;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: greenyellow;
+  background-color: #ffffff;
 }
 
 .partners-carousel-container {
   display: flex;
   width: 100%;
   height: 70px;
-  background-color: coral;
 }
 
 .partner-items {
@@ -353,7 +348,6 @@ a:hover#developer-course {
   margin-left: 25px;
   margin-right: 25px;
   border: solid #ffffff 1px;
-  background-color: cadetblue;
 }
 
 .partner-image-container {
@@ -552,32 +546,137 @@ a:hover#developer-course {
 .article-header-bar-container {
   width: 100%;
   height: 117px;
+  padding-top: 50px;
   background-color: #ffffff;
-  border: #000000 solid 1px;
 }
 
 .article-content-container {
   width: 100%;
-  height: 773px;
+  height: 655px;
   background-color: #ffffff;
-  border: #000000 solid 1px;
 }
 
 .article-header-bar {
   display: flex;
   width: 65%;
-  height: 100%;
+  height: 67px;
   margin: auto;
-  background-color: mediumvioletred;
-  border: red solid 1px;
+}
+
+.latest-news {
+  width: 222px;
+  height: 39px;
+  font-size: 36px;
+  line-height: 39px;
+  margin-left: 15px;
 }
 
 .article-content {
+  display: flex;
   width: 65%;
   height: 100%;
   margin: auto;
-  background-color: mediumslateblue;
-  border: red solid 1px;
+}
+
+.article-container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.article-item {
+  width: 371px;
+  height: 400px;
+  padding-left: 28px;
+  padding-right: 28px;
+  border: #9ba2a6 solid 1px;
+}
+
+.article-header-image {
+  width: 371px;
+  height: 215px;
+  margin-top: 30px;
+}
+
+.article-header-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.article-item-text-container {
+  width: 100%;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  border-bottom: #9ba2a6 solid thin;
+}
+
+.article-title {
+  margin-bottom: 20px;
+}
+
+.article-item p {
+  margin: 0;
+}
+
+.article-read-time {
+  text-transform: uppercase;
+  color: #9ba2a6;
+}
+
+.article-read-more-button {
+  display: flex;
+  width: 141px;
+  height: 45px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 3px;
+  background-color: #f7b322;
+}
+
+.article-read-more-button-text {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.article-author {
+  display: flex;
+}
+
+.article-date {
+  padding-left: 30px;
+}
+
+.view-all-articles {
+  position: relative;
+  left: 820px;
+  font-size: 26px;
+  line-height: 28px;
+}
+
+.view-all-articles a:hover {
+  text-decoration: underline;
+}
+
+.view-all-articles-icon {
+  display: flex;
+  width: 23px;
+  height: 50px;
+  margin-left: 12px;
+  align-items: center;
+}
+
+.view-all-articles-icon img {
+  width: 100%;
+  height: 50%;
+}
+
+.view-all-articles-text {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  color: #000000;
 }
 
 .clients-carousel {

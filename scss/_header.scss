@@ -4,7 +4,7 @@
 {
     width: 100%;
     height: 110px;
-    background-color: salmon; // $white
+    background-color: $white
 }
 
 .header-content-container
@@ -15,7 +15,6 @@
     margin: auto;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: aqua; // $white;
 }
 
 .header-logo-container
