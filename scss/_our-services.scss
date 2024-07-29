@@ -30,7 +30,6 @@
     height: 100%;
     margin: auto;
     background-color: $white;
-    //border: $white solid 1px;
 }
 
 .top-row
@@ -55,7 +54,6 @@
     height: 344px;
     margin-top: 30px;
     background-color: $white;
-    //border: $black solid 1px;
 }
 
 .large-service-item-content
@@ -116,7 +114,6 @@
     width: 300px;
     height: 343px;
     background-color: $white;
-    //border: $black solid 1px;
 }
 
 .small-service-item-content
@@ -136,7 +133,6 @@
     height: 65px;
     margin: auto;
     align-items: center;
-    background-color: #67809f;
     border-radius: 50%;
 }
 
@@ -188,4 +184,39 @@
     display: flex;
     align-items: center;
     margin: auto;
+}
+
+.services-bespoke-services
+{
+    background-color: #d64541;
+}
+
+.services-it-support
+{
+    background-color: #4183d7;
+}
+
+.services-digital-marketing
+{
+    background-color: #2ecc71;
+}
+
+.services-telecoms-services
+{
+    background-color: #d64541;
+}
+
+.services-web-design
+{
+    background-color: #926fb1;
+}
+
+.services-cyber-security
+{
+    background-color: #f63459;
+}
+
+.services-developer-training
+{
+    background-color: #ce4125;
 }
