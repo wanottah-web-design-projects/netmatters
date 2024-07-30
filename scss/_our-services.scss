@@ -1,27 +1,73 @@
 
 // our services
-.our-services-container
+.our-services-header-bar-container
 {
     width: 100%;
-    height: 930px;
-    padding-top: 70px;
-    background-color: darkorchid;
+    height: 117px;
+    padding-top: 50px;
+    background-color: $white;
 }
 
-.our-services-header
+.our-services-header-bar
 {
     display: flex;
     width: 65%;
-    height: 69px;
+    height: 67px;
     margin: auto;
-    border: $white solid 1px;
 }
 
-.our-services-view-our-work
+.our-services-title
 {
-    width: 371px;
-    height: 41px;
-    float: right;
+    width: 272px;
+    height: 39px;
+    font-size: 43px;
+    line-height: 48px;
+    margin-left: 15px;
+}
+
+.view-our-services
+{
+    position: relative;
+    left: 640px;
+    font-size: 26px;
+    line-height: 28px;
+}
+
+.view-our-services a:hover
+{
+    text-decoration: underline;
+}
+
+.view-our-services-icon
+{
+    display: flex;
+    width: 23px;
+    height: 50px;
+    margin-left: 12px;
+    align-items: center;
+}
+
+.view-our-services-icon img
+{
+    width: 100%;
+    height: 50%;
+}
+
+.view-our-services-text
+{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    font-size: 36px;
+    line-height: 40px;
+    color: $black;
+}
+
+.our-services-container
+{
+    width: 100%;
+    height: 720px;
+    background-color: $white;
 }
 
 .our-services-content-container
@@ -52,8 +98,6 @@
 {
     width: 400px;
     height: 344px;
-    margin-top: 30px;
-    background-color: $white;
 }
 
 .large-service-item-content
