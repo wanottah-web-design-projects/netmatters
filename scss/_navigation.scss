@@ -65,32 +65,107 @@ a:hover#bespoke-software
     background-color: #67809f;
 }
 
+#bespoke-software-submenu, .bespoke-software-submenu:hover
+{
+    display: none;
+}
+
+.bespoke-software-submenu, a:hover>#bespoke-software-submenu
+{
+    display: block;
+}
+
 a:hover#it-support 
 {
     background-color: #4183d7;
 }
+
+#it-support-submenu, .it-support-submenu:hover
+{
+    display: none;
+}
+
+.it-support-submenu, a:hover>#it-support-submenu
+{
+    display: block;
+}
+
 
 a:hover#digital-marketing
 {
     background-color: #2ecc71;
 }
 
+#digital-marketing-submenu, .digital-marketing-submenu:hover
+{
+    display: none;
+}
+
+.digital-marketing-submenu, a:hover>#digital-marketing-submenu
+{
+    display: block;
+}
+
+
 a:hover#telecoms-services 
 {
     background-color: #d64541;
 }
+
+#telecoms-services-submenu, .telecoms-services-submenu:hover
+{
+    display: none;
+}
+
+.telecoms-services-submenu, a:hover>#telecoms-services-submenu
+{
+    display: block;
+}
+
 
 a:hover#web-design 
 {
     background-color: #926fb1;
 }
 
+#web-design-submenu, .web-design-submenu:hover
+{
+    display: none;
+}
+
+.web-design-submenu, a:hover>#web-design-submenu
+{
+    display: block;
+}
+
+
 a:hover#cyber-security 
 {
     background-color: #f62459;
 }
 
+#cyber-security-submenu, .cyber-security-submenu:hover
+{
+    display: none;
+}
+
+.cyber-security-submenu, a:hover>#cyber-security-submenu
+{
+    display: block;
+}
+
+
 a:hover#developer-course 
 {
     background-color: #ce4125;
+}
+
+#developer-course-submenu, .developer-course-submenu:hover
+{
+    display: none;
+}
+
+.developer-course-submenu, a:hover>#developer-course-submenu
+{
+    display: block;
 }
